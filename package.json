@@ -17,7 +17,8 @@
     "release:check": "npm run check && npm run integration:check && npm run performance:check && npm run knowledge:check",
     "release": "node release.js",
     "release:dry": "node release.js --dry-run"，
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate"，
+    "theme": "hexo-theme-stellar"
   },
   "repository": {
     "type": "git",
