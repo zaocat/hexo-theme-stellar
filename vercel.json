@@ -1,0 +1,7 @@
+{
+  "buildCommand": "hexo clean && hexo generate",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
